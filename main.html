@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My to do app</title>
+    <link rel="stylesheet" href=styles.css>
+  </head>
+  <body class="body">
+    <h1 class="h1">Tiny to do app</h1>
+    <div class="output"></div>
+    <form onsubmit="getInputValue(event)">
+      <input type="text" class="text" placeholder="What needs to be done? " id="inputId">
+      <button type="submit" class="button">Add task</button>
+    </form>
+    <span id="nameError">Please define your task! Now it's empty</span>
+    <script src="app.js"></script>
+
+  </body>
+</html>
